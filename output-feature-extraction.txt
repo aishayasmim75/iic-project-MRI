@@ -1,0 +1,38 @@
+Iniciando a seleção de features com LASSO Logistic Regression...
+
+Melhor valor de C encontrado: 0.5
+Equivalente a um Alpha de: 2.0000
+
+Com o C ótimo, o modelo reduziu de 91 para 57 ROIs.
+Regiões selecionadas: ['Left-Cerebral-White-Matter', 'Left-Inf-Lat-Vent', 'Left-Cerebellum-Cortex', 'Left-Putamen', '3rd-Ventricle', '4th-Ventricle', 'Brain-Stem', 'Left-Hippocampus', 'Left-Amygdala', 'CSF', 'Left-VentralDC', 'Left-choroid-plexus', 'Right-Putamen', 'Right-Accumbens-area', 'Right-VentralDC', 'WM-hypointensities', 'ctx-lh-caudalmiddlefrontal', 'ctx-lh-cuneus', 'ctx-lh-entorhinal', 'ctx-lh-inferiorparietal', 'ctx-lh-isthmuscingulate', 'ctx-lh-lateralorbitofrontal', 'ctx-lh-medialorbitofrontal', 'ctx-lh-middletemporal', 'ctx-lh-parahippocampal', 'ctx-lh-paracentral', 'ctx-lh-parsorbitalis', 'ctx-lh-parstriangularis', 'ctx-lh-posteriorcingulate', 'ctx-lh-precentral', 'ctx-lh-rostralanteriorcingulate', 'ctx-lh-superiorparietal', 'ctx-lh-superiortemporal', 'ctx-lh-transversetemporal', 'ctx-lh-insula', 'ctx-rh-caudalanteriorcingulate', 'ctx-rh-caudalmiddlefrontal', 'ctx-rh-entorhinal', 'ctx-rh-fusiform', 'ctx-rh-inferiorparietal', 'ctx-rh-inferiortemporal', 'ctx-rh-isthmuscingulate', 'ctx-rh-lateraloccipital', 'ctx-rh-lingual', 'ctx-rh-parahippocampal', 'ctx-rh-paracentral', 'ctx-rh-parsopercularis', 'ctx-rh-parsorbitalis', 'ctx-rh-parstriangularis', 'ctx-rh-pericalcarine', 'ctx-rh-precuneus', 'ctx-rh-rostralanteriorcingulate', 'ctx-rh-rostralmiddlefrontal', 'ctx-rh-transversetemporal', 'ctx-rh-insula', 'Right_choroid_volume', 'Left_choroid_volume']
+
+
+Iniciando a seleção de features com Forward Selection...
+Melhor número de ROIs para o Forward Selection: 60
+Maior AUC-ROC média alcançada: 0.655
+
+As 60 regiões selecionadas pelo Forward foram:
+['Left-Lateral-Ventricle', 'Left-Cerebellum-White-Matter', 'Left-Cerebellum-Cortex', 'Left-Caudate', 'Left-Pallidum', '3rd-Ventricle', '4th-Ventricle', 'Left-Hippocampus', 'Left-Amygdala', 'CSF', 'Left-Accumbens-area', 'Left-VentralDC', 'Right-Lateral-Ventricle', 'Right-Inf-Lat-Vent', 'Right-Thalamus', 'Right-Caudate', 'Right-Putamen', 'Right-Hippocampus', 'Right-Accumbens-area', 'Right-VentralDC', 'WM-hypointensities', 'ctx-lh-caudalanteriorcingulate', 'ctx-lh-cuneus', 'ctx-lh-fusiform', 'ctx-lh-inferiorparietal', 'ctx-lh-inferiortemporal', 'ctx-lh-lateraloccipital', 'ctx-lh-lateralorbitofrontal', 'ctx-lh-lingual', 'ctx-lh-medialorbitofrontal', 'ctx-lh-middletemporal', 'ctx-lh-parahippocampal', 'ctx-lh-parsopercularis', 'ctx-lh-parstriangularis', 'ctx-lh-postcentral', 'ctx-lh-posteriorcingulate', 'ctx-lh-rostralmiddlefrontal', 'ctx-lh-superiorparietal', 'ctx-lh-supramarginal', 'ctx-lh-insula', 'ctx-rh-caudalanteriorcingulate', 'ctx-rh-caudalmiddlefrontal', 'ctx-rh-entorhinal', 'ctx-rh-fusiform', 'ctx-rh-inferiorparietal', 'ctx-rh-lingual', 'ctx-rh-medialorbitofrontal', 'ctx-rh-middletemporal', 'ctx-rh-parahippocampal', 'ctx-rh-parsopercularis', 'ctx-rh-parsorbitalis', 'ctx-rh-pericalcarine', 'ctx-rh-precuneus', 'ctx-rh-superiorfrontal', 'ctx-rh-superiortemporal', 'ctx-rh-supramarginal', 'ctx-rh-transversetemporal', 'ctx-rh-insula', 'hpcr_wm_left', 'hpcr_wm_right']
+Arquivos .txt salvos com sucesso.
+
+==================================================
+       RELATÓRIO COMPARATIVO DE SELEÇÃO DE ROIs
+==================================================
+1. METODOLOGIA LASSO LOGÍSTICO:
+   - Quantidade de ROIs selecionadas: 57
+   - Maior AUC-ROC obtida no Treino (CV): 0.6964
+
+2. METODOLOGIA FORWARD SELECTION:
+   - Quantidade de ROIs selecionadas: 60
+   - Maior AUC-ROC obtida no Treino (CV): 0.6550
+
+3. CONSENSO DOS ALGORITMOS (Interseção):
+   - Quantidade de ROIs em comum: 34
+   - Regiões de Consenso: ['ctx-rh-fusiform', 'Left-VentralDC', 'ctx-lh-lateralorbitofrontal', 'ctx-lh-middletemporal', 'ctx-rh-precuneus', 'ctx-rh-pericalcarine', 'ctx-rh-transversetemporal', 'ctx-lh-cuneus', 'ctx-lh-medialorbitofrontal', 'ctx-rh-entorhinal', 'ctx-rh-caudalmiddlefrontal', 'Left-Cerebellum-Cortex', 'ctx-lh-posteriorcingulate', 'ctx-rh-caudalanteriorcingulate', 'ctx-rh-insula', 'Left-Hippocampus', '4th-Ventricle', '3rd-Ventricle', 'Right-Accumbens-area', 'ctx-lh-inferiorparietal', 'Right-VentralDC', 'ctx-rh-parsorbitalis', 'Right-Putamen', 'ctx-lh-parstriangularis', 'WM-hypointensities', 'ctx-lh-insula', 'ctx-rh-inferiorparietal', 'ctx-rh-lingual', 'ctx-lh-superiorparietal', 'CSF', 'ctx-lh-parahippocampal', 'ctx-rh-parahippocampal', 'Left-Amygdala', 'ctx-rh-parsopercularis']
+==================================================
+
+ Decisão por Performance: Um método superou o outro significativamente.
+ O subconjunto definitivo escolhido para o restante do projeto foi o do: Lasso (Maior AUC)
+ Quantidade de ROIs no subconjunto final: 57
+ ROIs do subconjunto final: ['Left-Cerebral-White-Matter', 'Left-Inf-Lat-Vent', 'Left-Cerebellum-Cortex', 'Left-Putamen', '3rd-Ventricle', '4th-Ventricle', 'Brain-Stem', 'Left-Hippocampus', 'Left-Amygdala', 'CSF', 'Left-VentralDC', 'Left-choroid-plexus', 'Right-Putamen', 'Right-Accumbens-area', 'Right-VentralDC', 'WM-hypointensities', 'ctx-lh-caudalmiddlefrontal', 'ctx-lh-cuneus', 'ctx-lh-entorhinal', 'ctx-lh-inferiorparietal', 'ctx-lh-isthmuscingulate', 'ctx-lh-lateralorbitofrontal', 'ctx-lh-medialorbitofrontal', 'ctx-lh-middletemporal', 'ctx-lh-parahippocampal', 'ctx-lh-paracentral', 'ctx-lh-parsorbitalis', 'ctx-lh-parstriangularis', 'ctx-lh-posteriorcingulate', 'ctx-lh-precentral', 'ctx-lh-rostralanteriorcingulate', 'ctx-lh-superiorparietal', 'ctx-lh-superiortemporal', 'ctx-lh-transversetemporal', 'ctx-lh-insula', 'ctx-rh-caudalanteriorcingulate', 'ctx-rh-caudalmiddlefrontal', 'ctx-rh-entorhinal', 'ctx-rh-fusiform', 'ctx-rh-inferiorparietal', 'ctx-rh-inferiortemporal', 'ctx-rh-isthmuscingulate', 'ctx-rh-lateraloccipital', 'ctx-rh-lingual', 'ctx-rh-parahippocampal', 'ctx-rh-paracentral', 'ctx-rh-parsopercularis', 'ctx-rh-parsorbitalis', 'ctx-rh-parstriangularis', 'ctx-rh-pericalcarine', 'ctx-rh-precuneus', 'ctx-rh-rostralanteriorcingulate', 'ctx-rh-rostralmiddlefrontal', 'ctx-rh-transversetemporal', 'ctx-rh-insula', 'Right_choroid_volume', 'Left_choroid_volume']
+Arquivo 'rois_selecionadas_definitivo.txt' salvo!

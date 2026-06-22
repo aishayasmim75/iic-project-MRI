@@ -1,0 +1,12 @@
+As 10 ROIs com maior diferença estatística entre os grupos:
+                   ROI      p_value
+      Left-Hippocampus 7.457254e-07
+     Left-Inf-Lat-Vent 2.740814e-06
+     Right-Hippocampus 4.183378e-05
+         Left-Amygdala 1.261678e-04
+Left-Lateral-Ventricle 2.203340e-04
+   Left_choroid_volume 3.640574e-04
+  Right_choroid_volume 2.074052e-03
+    Right-Inf-Lat-Vent 2.429163e-03
+     ctx-rh-entorhinal 2.699808e-03
+         hpcr_wm_right 2.992047e-03

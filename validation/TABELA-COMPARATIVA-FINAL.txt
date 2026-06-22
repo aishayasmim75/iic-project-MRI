@@ -1,0 +1,17 @@
+===============================================================================================
+                    TABELA COMPARATIVA FINAL (Métricas de cada modelo)
+===============================================================================================
+             Modelo                Categoria  AUC_ROC_Teste Sensibilidade (Recall) Especificidade VPP (Precisão)    VPN F1-Score
+SVM_Kernel_Vencedor Não-Linear (Kernel/Rede)       0.882262                 1.0000         0.3289         0.6016 1.0000   0.7512
+      Random_Forest     Ensemble / Instância       0.850820                 0.7013         0.7763         0.7606 0.7195   0.7297
+                GBM     Ensemble / Instância       0.835270                 0.7662         0.7500         0.7564 0.7600   0.7613
+            XGBoost     Ensemble / Instância       0.812030                 0.7273         0.7500         0.7467 0.7308   0.7368
+                KNN     Ensemble / Instância       0.752734                 0.5974         0.7632         0.7188 0.6517   0.6525
+           AdaBoost     Ensemble / Instância       0.712919                 0.6364         0.6579         0.6533 0.6410   0.6447
+Regressao_Logistica                   Linear       0.679084                 0.6494         0.5658         0.6024 0.6143   0.6250
+         SVM_Linear                   Linear       0.675325                 0.6623         0.5526         0.6000 0.6176   0.6296
+                LDA                   Linear       0.671224                 0.6364         0.5526         0.5904 0.6000   0.6125
+        Naive_Bayes                   Linear       0.636364                 0.5584         0.6184         0.5972 0.5802   0.5772
+    Rede_Neural_MLP Não-Linear (Kernel/Rede)       0.616370                 0.6104         0.6579         0.6438 0.6250   0.6267
+     Arvore_Decisao     Ensemble / Instância       0.607997                 0.5974         0.5921         0.5974 0.5921   0.5974
+===============================================================================================

@@ -1,0 +1,5 @@
+Modelo,Melhor_Parametro,AUC_ROC_CV_Treino
+Regressão Logística,{'lr__C': 1.0},0.7139329805996473
+SVM Linear,{'svm__C': 0.1},0.7160185185185185
+LDA,N/A,0.7192283950617284
+Naïve Bayes,N/A,0.637663139329806

@@ -1,0 +1,15 @@
+Dados carregados com sucesso. Treinando modelos não-lineares com 57 ROIs.
+
+---Treinando o modelo com SVM Não-Linear (Polinomial e RBF) ---
+Melhor configuração de SVM encontrada:
+{'svm__C': 0.1, 'svm__gamma': 0.1, 'svm__kernel': 'rbf'}
+Maior AUC-ROC obtida (CV): 0.8270
+
+--- Otimizando Rede Neural Artificial (MLP) ---
+Melhor configuração de MLP encontrada:
+{'mlp__activation': 'tanh', 'mlp__alpha': 0.0001, 'mlp__hidden_layer_sizes': (30,)}
+Maior AUC-ROC obtida (CV): 0.5804
+
+=======================================================
+Modelos não-lineares salvos em arquivos pkl/csv.
+=======================================================

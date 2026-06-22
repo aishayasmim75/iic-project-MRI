@@ -1,0 +1,26 @@
+===============================================================================================
+		TREINAMENTO - Comparação de modelos
+===============================================================================================
+
+MODELOS LINEARES ==============================================================================
+Modelo,Melhor_Parametro,AUC_ROC_CV_Treino
+Regressão Logística,{'lr__C': 1.0},                    0.7139329805996473
+SVM Linear,{'svm__C': 0.1},                            0.7160185185185185
+LDA,N/A,                                               0.7192283950617284
+Naïve Bayes,N/A,                                      0.637663139329806
+
+MODELOS NÃO-LINEARES ==========================================================================
+Modelo,Melhor_Parametro,AUC_ROC_CV_Treino
+SVM (rbf),"{'svm__C': 0.1, 'svm__gamma': 0.1, 'svm__kernel': 'rbf'}",                                   0.8264858906525573
+Rede Neural MLP,"{'mlp__activation': 'tanh', 'mlp__alpha': 0.0001, 'mlp__hidden_layer_sizes': (30,)}",  0.5804144620811288
+
+
+OUTROS MODELOS ================================================================================
+Modelo,Melhor_Parametro,AUC_ROC_CV_Treino
+KNN,"{'knn__metric': 'euclidean', 'knn__n_neighbors': 5, 'knn__weights': 'distance'}",                  0.7702248677248676
+Ãrvore de DecisÃ£o,"{'dt__criterion': 'entropy', 'dt__max_depth': 10, 'dt__min_samples_split': 5}",     0.6743364197530864
+Random Forest,"{'rf__max_depth': None, 'rf__max_features': 'log2', 'rf__n_estimators': 100}",           0.8049360670194003
+XGBoost,"{'xgb__learning_rate': 0.1, 'xgb__max_depth': 7, 'xgb__n_estimators': 50}",                    0.7731128747795415
+AdaBoost,"{'ada__learning_rate': 1.0, 'ada__n_estimators': 100}",                                       0.692010582010582
+GBM,"{'gbm__learning_rate': 0.2, 'gbm__max_depth': 5, 'gbm__n_estimators': 150}",                       0.7804717813051146
+

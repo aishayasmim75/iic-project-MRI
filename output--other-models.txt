@@ -1,0 +1,29 @@
+Dados carregados com sucesso. Treinando modelos baseados em instâncias (KNN) ou em árvores (Árvores de Decisão, Random Forests e Boosting) com 57 ROIs.
+
+---Treinando o modelo com KNN ---
+Melhor configuração KNN: {'knn__metric': 'euclidean', 'knn__n_neighbors': 5, 'knn__weights': 'distance'}
+Melhor AUC-ROC (CV): 0.7702
+
+---Treinando o modelo com Árvore de Decisão Simples ---
+Melhor configuração Árvore: {'dt__criterion': 'entropy', 'dt__max_depth': 10, 'dt__min_samples_split': 5}
+Melhor AUC-ROC (CV): 0.6608
+
+---Treinando o modelo com Random Forest ---
+Melhor configuração Random Forest: {'rf__max_depth': None, 'rf__max_features': 'log2', 'rf__n_estimators': 200}
+Melhor AUC-ROC (CV): 0.8061
+
+---Treinando o modelo com AdaBoost ---
+Melhor configuração AdaBoost: {'ada__learning_rate': 1.0, 'ada__n_estimators': 100}
+Melhor AUC-ROC (AdaBoost): 0.6920
+
+---Treinando o modelo com GBM ---
+Melhor configuração GBM: {'gbm__learning_rate': 0.2, 'gbm__max_depth': 5, 'gbm__n_estimators': 150}
+Melhor AUC-ROC (GBM): 0.7805
+
+---Treinando o modelo com XGBOOST ---
+Melhor configuration XGBoost: {'xgb__learning_rate': 0.1, 'xgb__max_depth': 7, 'xgb__n_estimators': 50}
+Melhor AUC-ROC (CV): 0.7731
+
+=======================================================
+ Todos os 6 modelos salvos em arquivos pkl/csv.
+=======================================================

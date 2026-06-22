@@ -1,0 +1,19 @@
+Dados carregados. Treinando com 57 ROIs selecionadas.
+
+--- Treinando Regressão Logística ---
+Melhor C (Reg. Logística): 1.0
+Melhor AUC-ROC (CV): 0.7139
+
+--- Treinando SVM Linear ---
+Melhor C (SVM Linear): 0.1
+Melhor AUC-ROC (CV): 0.7160
+
+--- Treinando LDA ---
+AUC-ROC do LDA (CV): 0.7192
+
+--- Treinando Naïve Bayes ---
+AUC-ROC do Naïve Bayes (CV): 0.6377
+
+==================================================
+Todos os 4 modelos salvos em arquivos pkl/csv.
+==================================================

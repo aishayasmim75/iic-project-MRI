@@ -1,0 +1,11 @@
+ROI	mean
+hipocampo	82,715
+ctx-entorrinal	90,16
+giro para-hipocampal	89,26
+giro fusiforme	91,125
+giro temporal médio	88,785
+giro temporal inferior	89,3
+amígdala	86,54
+ventrículo lateral inferior	85,195
+ventrículo lateral	87,005
+ventrículos centrais	91,78
